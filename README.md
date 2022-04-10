@@ -36,7 +36,7 @@ I made some friends, and some helped me developing. Now let's get to the program
 
 ## The Program Itself（项目本身）
 
-### [22w01a](./22w01a/fight.py)
+### 22w01a
 
 > "The last program is not good. Let's start a new battle game." I announced.
 
@@ -53,7 +53,7 @@ Main features（主要特性）
 
 ![展示图片](https://user-images.githubusercontent.com/99591325/160269577-2bcc61f2-a3fd-413a-8fd5-80616741d98e.png)
 
-### [22w02a](./22w02a/fight.py)
+### 22w02a
 
 > "The last version's inner logic is really ugly, and I am going to redo it." I said during a club meeting.
 
@@ -65,7 +65,7 @@ As a version of rewriting the inner logic, it really has no use.
 Main features（主要特性）
 - Class 面向对象
 
-### [22w03a](./22w03a/fight.py)(LTS)
+### 22w03a
 
 > "Now we are having classes online, and I will finish the program in no time."
 > “现在我们上线上课了，我两天就能把游戏写完。”
@@ -79,4 +79,4 @@ Main features（主要特性）
 
 ![展示图片](https://user-images.githubusercontent.com/99591325/161356350-45580d3c-d98c-40fe-8063-c0839ac2f0e8.png)
 
-### [22w04a](./22w04a/fight.py)
+### 22w04a
