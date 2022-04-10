@@ -265,8 +265,8 @@ entitylist = [] # Create a list to save all entities
 fps_counter = FPSCounter(displaySurface, pygame.font.Font(None, 36), fpsClock, (0,255,0), (920, 55))
 
 # Import map
-brickImg = pygame.image.load("brick.png")
-logImg = pygame.image.load("log.png")
+brickImg = pygame.image.load("./img/brick.png")
+logImg = pygame.image.load("./img/log.png")
 def importMap(path):
     mapfile = open(path, "rt")
     maplist = mapfile.readlines()
@@ -283,8 +283,8 @@ def drawMap(maplist, surface):
             surface.blit(logImg, (j*16, height*16))
 
 # Blood stripes and damage
-numberimg1 = pygame.image.load("./numbers1.png").convert_alpha()
-numberimg2 = pygame.image.load("./numbers2.png").convert_alpha()
+numberimg1 = pygame.image.load("./img/numbers1.png").convert_alpha()
+numberimg2 = pygame.image.load("./img/numbers2.png").convert_alpha()
 def drawnumbers(numbers, type):
     if type == 1:
         surface = pygame.Surface((10*len(numbers)-2, 16)).convert_alpha()
@@ -358,7 +358,7 @@ mapSurface = pygame.Surface(SCREEN)
 hpSurface = pygame.Surface((SCREEN[0], PULLDOWN))
 
 # Init game
-mapSurface.blit(pygame.transform.scale(pygame.image.load("back.jpg"), SCREEN), (0, 0))
+mapSurface.blit(pygame.transform.scale(pygame.image.load("./img/back.jpg"), SCREEN), (0, 0))
 drawMap(maplist, mapSurface)
 stripeWidth, wordWidth = initHp()
 place = wordWidth+15 + stripeWidth//2
