@@ -76,7 +76,9 @@ It's already like an fighting game now.
 Main features（主要特性）
 - Shoot 射击
 - Blood stripes 血条
+- Frame rate 帧率显示
 
 ![展示图片](https://user-images.githubusercontent.com/99591325/161356350-45580d3c-d98c-40fe-8063-c0839ac2f0e8.png)
 
 ### 22w04a
+> 正在制作...
